@@ -1,0 +1,261 @@
+/*Glavne boje:
+    pozadina: #15161f
+    navbar, footer: #232433
+    dugme:
+    container (ljubicasta): #352c40
+    tekst: #e6e6f0
+
+
+
+
+
+    nove boje:
+        narandzasta: #eeb645
+        cyan: #67dcec
+        crvena:#bf2c45
+        placva:
+    */
+/*header*/
+    *{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#e6e6f0;
+    
+}
+html { 
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #15161f;
+}
+#nav{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: #232433;
+    border-radius: 50px;
+    
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content:center ;
+}
+
+a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#nav a:hover {
+  background-color: #111111;
+}
+
+
+
+
+
+
+
+
+
+/*index.html*/
+#hero{
+    background-image: url('../appdata/content/hero.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin: 10px 0px;
+    height:750px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 20px #e6e6f029;
+}
+#hero_text{
+    backdrop-filter: blur(5px);
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+#hero_text table{
+    text-align: center;
+    margin: auto;
+}
+
+#naslov{
+    font-size: 64px;
+}
+#podnaslov{
+    font-size: 32px;
+}
+#cta{
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+}
+
+#cta a{
+    background-color: #9C1B4B;
+    font-size: 18px;
+    height: 20px;
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+}
+#cta a:hover{
+    background-color: #741437;
+    cursor: pointer;
+}
+#luka{
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight:500;
+    text-transform: uppercase;
+}
+
+#o_meni{
+
+    height:600px;
+    width:300px;
+    flex-direction: column;
+    display: flex;
+    align-items:  center;
+    background-color: #065252;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px #e6e6f024;
+}
+#slika{
+
+    height: 325px;
+    width: 243px;
+    background-image: url(/appdata/content/ja.jpeg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+#container{
+    display: flex;
+    flex-direction: row;
+}
+#text{
+    margin-top: 20px;
+    font-size:20px;
+    padding: 30px 20px;
+    border-radius: 20px;
+    background-color: #065252a8;
+    height: fit-content;
+}
+#tbl{
+    text-align: center;;
+}
+
+
+
+/*zadaci.html*/
+
+.zdc{
+    padding: 10px;
+    border-radius: 40px;
+    background-color: #232433;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.label{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    background-color: #9C1B4B;
+    border-radius: 30px;
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+}
+.zadatak{
+    background-color:#045D5D;
+    height: 200px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    margin: 25px auto;
+}
+.zadatak table{
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+.br_zad{
+    height: 45px;
+}
+.text_zad{
+    font-size: 13px;
+    background-color: #068b8b;
+}
+
+.dugmad{
+    height:50px;
+}
+.dokaz{
+    background-color: #C79961;
+    border-radius: 30px;
+    padding: 8px 10px;
+    margin: 10px 10px;
+}
+.dokaz:hover{
+    background-color: #926a38;
+
+}
+.show{
+    background-color: #01B2CB;
+    border-radius: 30px;
+    padding: 8px 10px;
+    margin: 10px 10px;
+}
+.show:hover{
+        background-color: #078090;
+}
+
+
+
+
+
+
+
+/*footer*/
+#footer{
+    height: 50px;
+    width: 100%;
+    background-color: #232433;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+#footer table{
+    text-align: center;
+}
+#footer td{
+    color: white;
+    font-size: 11px;
+}
+
+/*sav kod napisan od strene Luke Stanojkovica*/
