@@ -388,32 +388,20 @@
 
         </div><!--Kraj zadataka sa listama i tekstualnim dokumentima-->
 
-<button id="openModalButton"
+        <button id="openModalButton"
                 onclick="popup(1);">
             View Image Modal
         </button>
-<dialog id="modalContainer">
-        
-        <!-- Modal Content Container -->
+    <dialog id="modalContainer">
         <div>
             
-            <!-- Modal Header (based on user input) -->
             <div id="modalHeader">
                 <div>zadatak 1 (Task 1)</div>
-                <!-- Close Button uses popup(0) to close -->
-                <button id="closeDia" 
-                        onclick="popup(0);">
-                    &times;
-                </button>
+                <button id="closeDia" onclick="popup(0);">x</button>
             </div>
             
-            <!-- Image Content -->
-            <div>
-                <!-- Using a placeholder URL for display -->
-                <img src="https://placehold.co/600x400/1e40af/ffffff?text=Modal+Image"
-                    alt="slika"
-                    onerror="this.onerror=null; this.src='placehold.co/600x400/1e40af/ffffff?text=Image+Load+Error'"
-                >
+
+            <div id="modalImg">
             </div>
 
         </div>
