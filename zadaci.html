@@ -408,6 +408,7 @@
             View Image Modal
         </button>
 
+
 <dialog id="modalContainer">
         
         <!-- Modal Content Container -->
@@ -423,13 +424,14 @@
                 </button>
             </div>
             
+            <!-- Image Content -->
             <div>
-                <img src="https://placehold.co/600x400/1e40af/ffffff?text=Modal+Image" alt="slika">
+                <!-- Using a placeholder URL for display -->
+                <img src="https://placehold.co/600x400/1e40af/ffffff?text=Modal+Image"
+                    alt="slika"
+                    onerror="this.onerror=null; this.src='https://placehold.co/600x400/1e40af/ffffff?text=Image+Load+Error'"
+                >
             </div>
-
-        </div>
-    </dialog>
-
 
         </div>
     </dialog>
