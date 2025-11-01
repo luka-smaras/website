@@ -15,6 +15,9 @@
         crvena:#bf2c45
         placva:
     */
+
+
+
 /*header*/
     *{
     font-family: Arial, Helvetica, sans-serif;
@@ -52,14 +55,6 @@ a {
 #nav a:hover {
   background-color: #111111;
 }
-
-
-
-
-
-
-
-
 
 /*index.html*/
 #hero{
@@ -165,7 +160,7 @@ a {
 
 /*zadaci.html*/
 
-.zdc{
+.zdc{                     
     padding: 10px;
     border-radius: 40px;
     background-color: #232433;
@@ -173,7 +168,6 @@ a {
     display: flex;
     flex-wrap: wrap;
 }
-
 
 .label{
     display: flex;
@@ -231,11 +225,6 @@ a {
 .show:hover{
         background-color: #078090;
 }
-
-
-
-
-
 
 
 /*footer*/

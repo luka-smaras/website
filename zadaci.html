@@ -347,7 +347,7 @@
                         <td colspan="2" class="br_zad">ZADATAK 21</td>
                     </tr>
                     <tr> <!--Tekst zadatka-->
-                        <td colspan="2" class="text_zad">Formirati klasu "drvo". Privatne promenljive su poluprecnik i duzina. Javne su dodeli, povrs i zapremina. Formirati niz duzine 20 popunjen random brojevima. Odrediti ukupnu zapreminu svih stabala u nizu.</td>
+                        <td colspan="2" class="text_zad">.</td>
                     </tr>
                     <tr class="dugmad"> 
                         <td><a href="appdata/content/SVE/zadatak19/main.cpp" class="show">PRIKAZI</a></td><!--zadatak-->
@@ -362,7 +362,7 @@
                         <td colspan="2" class="br_zad">ZADATAK 22</td>
                     </tr>
                     <tr> <!--Tekst zadatka-->
-                        <td colspan="2" class="text_zad">Formirati klasu "drvo". Privatne promenljive su poluprecnik i duzina. Javne su dodeli, povrs i zapremina. Formirati niz duzine 20 popunjen random brojevima. Odrediti ukupnu zapreminu svih stabala u nizu.</td>
+                        <td colspan="2" class="text_zad">Formirati listu koja sadrži 10 elemenata strukture. Struktura sadrži ocene iz srpskog, matematike i fizičkog. Sve ocene se generišu random. Kada se lista popuni ispisati je na ekranu. Odrediti ko ima najveći prosek i na kom se mestu nalazi član.</td>
                     </tr>
                     <tr class="dugmad"> 
                         <td><a href="appdata/content/SVE/zadatak19/main.cpp" class="show">PRIKAZI</a></td><!--zadatak-->
@@ -377,7 +377,7 @@
                         <td colspan="2" class="br_zad">ZADATAK 23</td>
                     </tr>
                     <tr> <!--Tekst zadatka-->
-                        <td colspan="2" class="text_zad">Formirati klasu "drvo". Privatne promenljive su poluprecnik i duzina. Javne su dodeli, povrs i zapremina. Formirati niz duzine 20 popunjen random brojevima. Odrediti ukupnu zapreminu svih stabala u nizu.</td>
+                        <td colspan="2" class="text_zad">Formirati tekstualni fajl koji sadrži 10 celih brojeva koji su random upisani.</td>
                     </tr>
                     <tr class="dugmad"> 
                         <td><a href="appdata/content/SVE/zadatak19/main.cpp" class="show">PRIKAZI</a></td><!--zadatak-->
@@ -387,6 +387,63 @@
             </div>
 
         </div><!--Kraj zadataka sa listama i tekstualnim dokumentima-->
+
+        <button id="openDia" onclick="popup(1);">otvori</button>
+
+        <dialog id="modalContainer">
+            <div id="modalHeader">
+                <div>zadatak 1</div>
+                <button id="closeDia" onclick="popup(1);">X</button>
+            </div>
+            <img src="/website/appdata/content/hero.jpg" alt="slika">
+        </dialog>
+
+
+
+
+
+
+<button id="openModalButton"
+                onclick="popup(1);">
+            View Image Modal
+        </button>
+
+<dialog id="modalContainer">
+        
+        <!-- Modal Content Container -->
+        <div>
+            
+            <!-- Modal Header (based on user input) -->
+            <div id="modalHeader">
+                <div>zadatak 1 (Task 1)</div>
+                <!-- Close Button uses popup(0) to close -->
+                <button id="closeDia" 
+                        onclick="popup(0);">
+                    &times;
+                </button>
+            </div>
+            
+            <div>
+                <img src="https://placehold.co/600x400/1e40af/ffffff?text=Modal+Image" alt="slika">
+            </div>
+
+        </div>
+    </dialog>
+
+
+        </div>
+    </dialog>
+
+
+
+
+
+
+
+
+
+
+
 
         <div id="footer">
                 <table>
@@ -399,5 +456,7 @@
                 </table>
             </div>
     </div>
+
+    <script src="website/appdata/functions.js"></script>
 </body>
 </html>
