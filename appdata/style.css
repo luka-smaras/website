@@ -40,20 +40,20 @@ body{
     
 }
 ul {
-  list-style-type: none;
-  display: flex;
-  justify-content:center ;
+    list-style-type: none;
+    display: flex;
+    justify-content:center ;
 }
 
 a {
-  display: block;
-  color: white;
-  padding: 14px 16px;
-  text-decoration: none;
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
 #nav a:hover {
-  background-color: #111111;
+    background-color: #111111;
 }
 
 /*index.html*/
@@ -159,7 +159,7 @@ a {
 
 
 /*zadaci.html*/
-
+    /*CEO OVAJ PAGE JE BITAN, MOZES SAMO DA MENJAS BOJE I OBLIKE*/
 .zdc{                     
     padding: 10px;
     border-radius: 40px;
