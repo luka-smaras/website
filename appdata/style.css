@@ -255,7 +255,13 @@ a {
     background-color: #068b8b;
 }
 
+
 .zadatak table{
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+.zadatak_pit table{
     text-align: center;
     height: 100%;
     width: 100%;
@@ -266,6 +272,7 @@ a {
 }
 .text_zad{
     font-size: 13px;
+    padding: 8px 0px;
     background-color: #068b8b;
 }
 
