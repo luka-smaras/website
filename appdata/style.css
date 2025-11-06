@@ -166,7 +166,7 @@ a {
 
     height: 325px;
     width: 243px;
-    background-image: url(/website/appdata/content/ja.jpeg);
+    background-image: url(../website/appdata/content/ja.jpeg);
     background-position: center;
     background-size: cover;
     border-radius: 20px;
