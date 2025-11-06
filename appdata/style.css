@@ -4,11 +4,6 @@
     dugme:
     container (ljubicasta): #352c40
     tekst: #e6e6f0
-
-
-
-
-
     nove boje:
         narandzasta: #eeb645
         cyan: #67dcec
@@ -240,19 +235,25 @@ a {
 }
 
 .zadatak_pit{
-    background-color:#045D5D;
-    height: 450px;
-    width: 580px;
+    background-color:#9C1B4B;
+    height: 200px;
+    width: 350px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 30px;
     margin: 25px auto;
 }
+
 .text_zad{
     font-size: 13px;
     width: 100%;
     background-color: #068b8b;
+}
+.text_zad_pit{
+    font-size: 13px;
+    width: 100%;
+    background-color: #be215b;
 }
 
 
@@ -269,11 +270,6 @@ a {
 
 .br_zad{
     height: 45px;
-}
-.text_zad{
-    font-size: 13px;
-    padding: 8px 0px;
-    background-color: #068b8b;
 }
 
 .dugmad{
@@ -298,12 +294,17 @@ a {
 .show:hover{
         background-color: #078090;
 }
-iframe{
-    width: 560px;
-    height: 315px;
-    border-radius: 15px;
+
+.dload{
+    background-color: #068b8b;
+    border-radius: 30px;
+    padding: 8px 10px;
+    margin: 10px 10px;
 }
 
+.dload:hover{
+        background-color: #045D5D;
+}
 
 /*footer*/
 #footer{
