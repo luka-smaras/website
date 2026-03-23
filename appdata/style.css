@@ -17,7 +17,6 @@
     *{
     font-family: Arial, Helvetica, sans-serif;
     color:#e6e6f0;
-    
 }
 html { 
     scroll-behavior: smooth;
@@ -42,7 +41,7 @@ ul {
 a {
     display: block;
     color: white;
-    padding: 14px 16px;
+    padding: 0.8em 1em;
     text-decoration: none;
 }
 
@@ -86,14 +85,14 @@ a {
 }
 
 .naslov{
-    font-size: 64px;
+    font-size: 4rem;
 }
 .podnaslov{
-    font-size: 32px;
+    font-size: 2rem;
     width: fit-content;
 }
 #cta{
-    padding-top: 15px;
+    padding-top: 1rem;
     display: flex;
     align-items: center;
     justify-content:center ;
@@ -101,7 +100,7 @@ a {
 
 #cta a{
     background-color: #9C1B4B;
-    font-size: 18px;
+    font-size: 1.2em;
     height: 20px;
     width: 100px;
     border: none;
@@ -225,8 +224,8 @@ a {
 }
 .zadatak{
     background-color:#045D5D;
-    height: 200px;
-    width: 350px;
+    height: 230px;
+    width: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
