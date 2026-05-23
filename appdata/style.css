@@ -8,7 +8,6 @@
         narandzasta: #eeb645
         cyan: #67dcec
         crvena:#bf2c45
-        placva:
     */
 
 
@@ -302,9 +301,46 @@ a {
 }
 
 .dload:hover{
-        background-color: #045D5D;
+    background-color: #045D5D;
 }
-
+/*projekti.html*/
+    #stormz{
+    background-color: #078090;
+    height: 400px;
+    width: 50%;
+    border-radius: 20px;
+    margin: 20px;
+    padding-top: 20px;
+    text-align: center;
+}
+#swapspot{
+    background-color: #078090;
+    height: 400px;
+    width: 50%;
+    border-radius: 20px;
+    margin: 20px;
+    padding-top: 20px;
+    text-align: center;
+}
+.projekat_naslov{ 
+    font-size: 48px;
+    color: white;
+}       
+.projekat_text{
+    font-size: 18px;
+    color: white;
+    margin-top: 100px;
+}
+.projekat_button{
+    background-color: #9C1B4B;
+    font-size: 18px;
+    height: 20px;
+    width: auto;
+    margin: 15px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+}
 /*footer*/
 #footer{
     height: 50px;
